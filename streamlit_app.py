@@ -33,7 +33,7 @@ def get_fruityvice_data(this_fruit_choice):
 # output screen as table
     return fruityvice_normalized
 
-streamlit.header("Fruityvice Fruit Advice!")
+streamlit.header("View Our Fruit list -Add your Favorite")
 try:
   fruit_choice = streamlit.text_input('What fruit would you like information about?')
   if not fruit_choice:
